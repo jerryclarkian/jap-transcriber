@@ -1,0 +1,22 @@
+{
+  "name": "jap-transcription",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "kuroshiro": "~1.1.2",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "vosk": "^0.3.39",
+    "wav": "^1.0.2"
+  }
+}
